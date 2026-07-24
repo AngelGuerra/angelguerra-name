@@ -1,0 +1,195 @@
+@import "@picocss/pico/css/pico.css";
+
+:root {
+  color-scheme: light dark;
+
+  --bg: hsl(220 12% 98%);
+  --surface: hsl(220 10% 94%);
+  --text: hsl(220 18% 18%);
+  --text-muted: hsl(220 8% 42%);
+  --border: hsl(220 10% 76%);
+
+  --beard-shadow: hsl(220 18% 18%);
+
+  --entelgy: #041c2c;
+  --iteisa: #af1685;
+  --sport2fit: #165b74;
+  --punsset: #4f3226;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(220 14% 10%);
+    --surface: hsl(220 10% 15%);
+    --text: hsl(220 15% 94%);
+    --text-muted: hsl(220 8% 72%);
+    --border: hsl(220 8% 30%);
+
+    --beard-shadow: hsl(220 10% 15%);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  text-wrap: pretty;
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+body {
+  @media (min-width: 1025px) {
+    > header {
+      position: fixed;
+      width: calc(100% / 3);
+      height: 100vh;
+    }
+
+    > main {
+      margin-left: calc(100% / 3);
+      width: calc((100% / 3) * 2);
+    }
+  }
+
+  &:has(article[data-company="entelgy"]:hover) {
+    --beard-shadow: var(--entelgy);
+  }
+
+  &:has(article[data-company="iteisa"]:hover) {
+    --beard-shadow: var(--iteisa);
+  }
+
+  &:has(article[data-company="sport2fit"]:hover) {
+    --beard-shadow: var(--sport2fit);
+  }
+
+  &:has(article[data-company="punsset"]:hover) {
+    --beard-shadow: var(--punsset);
+  }
+
+  > header {
+    align-items: center;
+    background-color: var(--bg);
+    border-right: solid 1px var(--border);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+
+    hgroup {
+      h1 {
+        em {
+          font-style: normal;
+          color: var(--text-muted);
+        }
+      }
+      p {
+        color: var(--text-muted);
+      }
+    }
+
+    img {
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 0 10px var(--beard-shadow));
+      transition: filter 0.25s ease;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration-color: var(--text);
+
+      &:hover,
+      &:visited {
+        color: var(--text-muted);
+        text-decoration-color: var(--text-muted);
+      }
+    }
+  }
+
+  > main {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--surface);
+
+    > section {
+      max-width: 42rem;
+
+      > details {
+        summary {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          h2 {
+            margin: 0;
+          }
+        }
+      }
+
+      article {
+        --accent-color: var(--text);
+
+        &[data-company="entelgy"] {
+          --accent-color: var(--entelgy);
+        }
+
+        &[data-company="iteisa"] {
+          --accent-color: var(--iteisa);
+        }
+
+        &[data-company="sport2fit"] {
+          --accent-color: var(--sport2fit);
+        }
+
+        &[data-company="punsset"] {
+          --accent-color: var(--punsset);
+        }
+
+        background-color: var(--bg);
+        border: solid 1px var(--accent-color);
+        border-radius: 0.25rem;
+        padding: 1rem;
+        transition: transform 0.2s ease;
+        box-shadow: 0px 0px 4px 0px var(--accent-color);
+
+        &:hover {
+          transform: translateX(0.25rem);
+        }
+
+        > p:first-of-type {
+          em {
+            color: var(--text-muted);
+          }
+        }
+
+        a {
+          color: var(--accent-color);
+          text-decoration: none;
+          text-decoration-color: var(--accent-color);
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          @media (prefers-color-scheme: dark) {
+            color: hsl(0 0% 100%);
+          }
+        }
+
+        > footer {
+          border-top-color: var(--accent-color);
+          background-color: var(--surface);
+        }
+      }
+    }
+  }
+
+  .tags-cloud {
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    font-style: italic;
+    gap: 0.5rem;
+  }
+}
