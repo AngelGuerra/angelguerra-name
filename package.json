@@ -9,21 +9,25 @@
   "type": "module",
   "main": "",
   "scripts": {
+    "a11y": "pa11y http://localhost:5173",
+    "a11y:built": "pa11y http://localhost:4173",
     "build": "vite build",
     "dev": "vite",
     "format": "oxfmt --check .",
     "format:fix": "oxfmt .",
     "lighthouse": "lighthouse http://localhost:5173 --view",
+    "lighthouse:built": "lighthouse http://localhost:4173 --view",
     "lint": "oxlint .",
     "lint:fix": "oxlint --fix .",
-    "a11y": "pa11y http://localhost:5173",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.0",
     "@picocss/pico": "2.1.1",
     "lighthouse": "13.4.1",
-    "oxfmt": "0.60.0",
-    "oxlint": "1.75.0",
+    "oxfmt": "0.61.0",
+    "oxlint": "1.76.0",
     "pa11y": "9.1.1",
     "vite": "8.1.5"
   },

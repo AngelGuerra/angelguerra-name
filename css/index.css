@@ -1,7 +1,17 @@
+@import "@fontsource-variable/source-sans-3";
+@import "@fontsource-variable/source-serif-4";
 @import "@picocss/pico/css/pico.css";
 
 :root {
   color-scheme: light dark;
+
+  /*https://systemfontstack.com/*/
+  --font-sans:
+    "Source Sans 3 Variable", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+  --font-serif:
+    "Source Serif 4 Variable", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+    Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 
   --bg: hsl(220 12% 98%);
   --surface: hsl(220 10% 94%);
@@ -11,10 +21,10 @@
 
   --beard-shadow: hsl(220 18% 18%);
 
-  --entelgy: #041c2c;
-  --iteisa: #af1685;
-  --sport2fit: #165b74;
-  --punsset: #4f3226;
+  --entelgy: hsl(204, 83.33%, 9.41%);
+  --iteisa: hsl(316.47, 77.66%, 38.63%);
+  --sport2fit: hsl(195.96, 68.12%, 27.06%);
+  --punsset: hsl(17.56, 35.04%, 22.94%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,6 +47,8 @@ html {
 }
 
 body {
+  font-family: var(--font-sans);
+
   @media (min-width: 1025px) {
     > header {
       position: fixed;
@@ -48,6 +60,12 @@ body {
       margin-left: calc(100% / 3);
       width: calc((100% / 3) * 2);
     }
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
   }
 
   &:has(article[data-company="entelgy"]:hover) {
@@ -69,11 +87,14 @@ body {
   > header {
     align-items: center;
     background-color: var(--bg);
-    border-right: solid 1px var(--border);
     display: flex;
     justify-content: center;
     padding: 1rem;
     text-align: center;
+
+    @media (min-width: 1025px) {
+      border-right: solid 1px var(--border);
+    }
 
     hgroup {
       h1 {
@@ -89,7 +110,7 @@ body {
 
     img {
       margin-bottom: 1rem;
-      filter: drop-shadow(0 0 10px var(--beard-shadow));
+      filter: drop-shadow(3px 3px 0 var(--beard-shadow));
       transition: filter 0.25s ease;
     }
 
