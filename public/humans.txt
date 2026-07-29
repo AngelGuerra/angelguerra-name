@@ -1,0 +1,39 @@
+/* TEAM */
+
+Developer: Ángel Guerra
+Role: Full Stack Developer
+Location: Cantabria, Spain
+
+Website: https://angelguerra.name
+LinkedIn: https://es.linkedin.com/in/angel-guerra-revilla
+GitHub: https://github.com/AngelGuerra
+
+/* SITE */
+
+Hand-crafted personal website.
+
+Built with:
+- HTML5
+- Modern CSS
+- Vite
+- Pico.css
+
+Typography:
+- Source Serif 4 Variable
+- Source Sans 3 Variable
+
+Hosted on:
+- Netlify
+
+/* PHILOSOPHY */
+
+No frameworks.
+No tracking.
+No cookies.
+No ads.
+
+Just HTML, CSS, JavaScript and words.
+
+/* THANKS */
+
+Thanks for taking the time to look under the hood.
