@@ -1,0 +1,50 @@
+# Ángel Guerra
+
+> Personal website of Ángel Guerra, a Full Stack Developer from Cantabria, Spain. This site contains a professional biography, employment history and contact information.
+
+This website is intentionally small and primarily textual. It is written in English and focuses on professional experience rather than acting as a traditional portfolio.
+
+## Biography
+
+Ángel Guerra is a Full Stack Developer with more than ten years of professional experience building business software, web applications and APIs.
+
+His career spans software consultancies and product companies across industries including automotive, insurance, legal-tech, pharmaceuticals and sports. He specialises in Ruby, Ruby on Rails and JavaScript, with extensive experience delivering maintainable software and collaborating in technical planning, code reviews and product discussions.
+
+### Expertise
+
+- Ruby
+- Ruby on Rails
+- JavaScript
+- React
+- PHP
+- CakePHP
+- REST APIs
+- MySQL
+- Software architecture
+- Backend development
+- Full-stack development
+
+### Experience
+
+- Entelgy Consulting (2023–Present)
+- ITEISA (2020–2023)
+- Sport2Fit (2020)
+- ITEISA (2017–2020)
+- Punsset / MotorK (2014–2017)
+
+### Highlights
+
+- 10+ years of professional experience.
+- Strong focus on maintainable business software.
+- Worked across multiple industries.
+- Former employers have rehired him.
+- Experienced in technical leadership, code reviews and planning.
+
+## Profiles
+
+- [LinkedIn](https://es.linkedin.com/in/angel-guerra-revilla): Professional profile.
+- [GitHub](https://github.com/AngelGuerra): Open source projects and code samples.
+
+## Optional
+
+- [llms-full.txt](https://angelguerra.name/llms-full.txt): Complete machine-readable version of the site's content.

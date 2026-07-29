@@ -1,0 +1,205 @@
+# Ángel Guerra
+
+Full Stack Developer
+Cantabria, Spain
+
+---
+
+## About
+
+Hi! I'm Ángel, a full-stack developer from Cantabria, Spain, with over ten years of professional experience building software for consultancies and product companies.
+
+Throughout my career I've worked across very different industries, including automotive, insurance, legal-tech and pharmaceuticals. Working in these different domains has taught me how to quickly understand business requirements and focus on solving real problems instead of simply writing code.
+
+One thing that has remained constant throughout my career is the trust placed in me by colleagues and employers. I've had the opportunity to work more than once with former managers and companies, gradually taking on more ownership and becoming involved not only in software development but also in technical discussions, planning, code reviews and product decisions.
+
+I still enjoy learning every day. Whether it's a new language, a different architecture or simply a better way to solve a problem, I believe there is always room to improve.
+
+---
+
+## Beyond work
+
+Outside work I'm happily married and the proud father of three children.
+
+I enjoy kickboxing, have practised martial arts for many years and have spent countless hours playing chess.
+
+---
+
+## Employment
+
+### Entelgy Consulting S.A.
+
+February 2023 – Present
+
+Role: Technical Analyst
+
+Working as part of an international team for the Nordic branch of one of Entelgy's clients.
+
+Projects include:
+
+- User tracking platform.
+- Legal-tech software.
+- Internal business tools.
+
+Responsibilities include:
+
+- Ruby development.
+- Code reviews.
+- Feature discussions.
+- Technical decisions.
+- Collaborative development.
+- English-speaking international teamwork.
+
+Technologies:
+
+- Ruby
+- Ruby on Rails
+- JavaScript
+- React
+
+---
+
+### ITEISA Desarrollo y Sistemas S.L.
+
+July 2020 – February 2023
+
+Role: Full Stack Developer
+
+Returned to the company after being invited back because of previous experience with its products.
+
+Responsibilities expanded beyond backend development to include:
+
+- Frontend development.
+- Backend development.
+- Project estimation.
+- Technical planning.
+- Product ownership.
+- Early technical decision making.
+
+Technologies:
+
+- PHP
+- CakePHP
+- PHPUnit
+- JavaScript
+- React
+- Next.js
+- MySQL
+- JAMStack
+
+---
+
+### Sport2Fit International S.L.
+
+January 2020 – July 2020
+
+Role: Full Stack Developer
+
+Joined the company after previously working with its manager.
+
+Projects included:
+
+- Automotive online magazine.
+- Spanish website for a tyre manufacturer.
+- Padel software.
+- Rally competition software.
+
+Technologies:
+
+- PHP
+- CakePHP
+- WordPress
+- JavaScript
+- jQuery
+- Ruby
+- Jekyll
+
+---
+
+### ITEISA Desarrollo y Sistemas S.L.
+
+April 2017 – January 2020
+
+Role: Full Stack Developer
+
+Worked primarily as a backend developer inside a software consultancy.
+
+Projects included:
+
+- Pharmaceutical ordering platforms.
+- Insurance management software.
+- Business applications.
+- Web scraping tools.
+- Internal business tools.
+- Company website maintenance.
+- Hosting support.
+
+Technologies:
+
+- PHP
+- CakePHP
+- PHPUnit
+- JavaScript
+- Oclif
+- MySQL
+- Selenium
+
+---
+
+### Punsset (later acquired by MotorK)
+
+July 2014 – March 2017
+
+Role: Full Stack Developer
+
+Started professional career after completing studies.
+
+Responsibilities evolved from customer support and issue resolution to coordinating daily production deployments.
+
+This role introduced Ruby and established the technical foundations that shaped the rest of the career.
+
+Worked mainly on:
+
+- Dealer Web Service (DWS)
+- SalesTool
+
+Technologies:
+
+- Ruby
+- Ruby on Rails
+- JavaScript
+- CoffeeScript
+- jQuery
+
+---
+
+## Core technologies
+
+- Ruby
+- Ruby on Rails
+- JavaScript
+- React
+- PHP
+- CakePHP
+- MySQL
+- REST APIs
+
+---
+
+## Professional profile
+
+Software developer focused on building reliable business software.
+
+Particular strengths include:
+
+- Learning new business domains quickly.
+- Building maintainable software.
+- Long-term collaboration.
+- Technical ownership.
+- Pragmatic decision making.
+- Continuous learning.
+
+---
+
+Website:
+https://angelguerra.name
